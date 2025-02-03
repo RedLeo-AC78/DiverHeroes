@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id ="total-medals-container">
+      Total Medals: <span id = "total-medals">0</span>
+    </div>
     <section>
-      <div class="main">
-        <div class="left">
-          <h3>Medals: <span class="medal-cost">0</span></h3>
-          <img
+      <div class="enemy-container">
+        <div class="health-bar">
+            <div class="health-progress"></div>
+        </div>
+        <img
             src="./Automaton/Unité-A1.png"
             alt="Automaton A1"
             class="enemy-image"
-            onclick="incrementMedal()"
+            onclick="attackEnemy()"
             draggable="false"
-          />
-        </div>
+        />
+    </div>    
         <div class="right">
           <div class="upgrade" onclick="buyClicker()">
             <div class="left-section">
