@@ -1,0 +1,71 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(46, 42, 42);
+  color: white;
+  user-select: none;
+}
+
+.main {
+  display: flex;
+  gap: 200px;
+}
+
+.left {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.enemy-image {
+  width: 1000px;
+}
+
+.enemy-image:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.enemy-image:active {
+  opacity: 0.8;
+  transform: scale(0.1);
+}
+
+.upgrade {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 60px;
+  border: 3px solid white;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.mid-section h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.mid-section p {
+  margin: 0;
+}
+
+.upgrade-image {
+  width: 55px;
+}
+
+.medal-img {
+  width: 20px;
+  height: 35px;
+}
+
+.cost-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
