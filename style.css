@@ -1,7 +1,7 @@
 body {
   display: grid;
-  place-items: center;
-  height: 100vh;
+  grid-template-columns: auto;
+  height: 100em;
   margin: 0;
   padding: 0;
   background-color: rgb(46, 42, 42);
@@ -11,7 +11,7 @@ body {
 
 #total-medals-container {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 20px;
   background-color: black;
   padding: 10px;
@@ -45,7 +45,7 @@ body {
 }
 
 .enemy-image {
-  width: 1000px;
+  width: 50em;
 }
 
 .enemy-image:hover {
@@ -55,7 +55,12 @@ body {
 
 .enemy-image:active {
   opacity: 0.8;
-  transform: scale(1.2);
+  transform: scale(0.9);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 .upgrade {
