@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Helldiver.io</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body style="display: none;">
+    <div id="welcome-screen">
+      <img src="./Ressource-Image/IMG-20240430-WA0008.png" alt="Start" id="start-button" onclick="startGame()">
+      <p id="start-text">Manage Democracy</p>
+  </div>
+  
+  <audio id="click-sound" src="./sound/Helldivers 2 - Minor Objective Completed (Extracted Audio).mp3"></audio>
+  <div id="game-container" style="display: none;"></div>
+  
+    
     <div id="total-medals-container">
       Total Medals: <span id="total-medals">0</span>
     </div>
@@ -84,7 +96,7 @@
             <div class="mid-section">
               <h4>Bazook</h4>
               <div class="cost-info">
-                <p>Cost: <span class="Bazook-cost">50</span></p>
+                <p>Cost: <span class="Bazook-cost">15</span></p>
                 <img
                   src="./Ressource-Image/MedalCurrency.png"
                   alt="ressource"
@@ -97,5 +109,13 @@
       </div>
     </section>
     <script src="script.js"></script>
+    </div>
+  </div>
+  <audio id="background-music" src="./sound/Chaosdivers 2 OST Complete Automaton World Soundtrack.mp3" loop></audio>
+  <audio id="reinforce-sound" src="./sound/Helldiver, Male - Calling in reinforcements.mp3"></audio>
+<audio id="mortar-sound" src="./sound/MortarBling.mp3"></audio>
+<audio id="bazook-sound" src="./sound/Helldiver, Male - Say hello to democracy.mp3"></audio>
+
+
   </body>
 </html>
