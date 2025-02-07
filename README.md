@@ -1,5 +1,37 @@
 # DiverHeroes
 
+English Version.
+
+This is a README from the Ministry of Truth.
+Any use other than educational purposes will be considered treason.
+
+The demo of the interactive game DiverHeroes is finally available!
+DiverHeroes is an IDLE GAME, a genre of video game where the main mechanic relies on simple actions with intentionally limited interactivity.
+
+Instructions to launch the DiverHeroes demo:
+Step 1
+Open the DiverHeroes file with Visual Studio Code (if you only click on the index file, display bugs may occur).
+
+Step 2
+Once your file has been fully loaded by Visual Studio Code, click on "Go Live" (at the bottom right) to open the game in a web browser.
+
+Step 3
+Click on the badge in the middle of the screen, and the game will appear with a very special animation (extremely difficult to implement).
+
+Step 4
+Now that the game is running, all you have to do is click on the enemy to defeat it.
+
+Stratagems
+You have access to stratagems that will help you defeat the enemy more easily.
+To use these stratagems, you must spend medals, which you earn by eliminating enemies.
+Each stratagem is unique and provides different bonuses—it's up to you to discover them!
+
+Difficulty
+After defeating a boss, the difficulty increases.
+Enemies and future bosses will become stronger, so you must find the best strategy to take them down!
+
+French Version.
+
 Ceci est un README du Ministère de la Vérité.
 Toute utilisation autre qu’éducative sera considérée comme de la trahison.
 
